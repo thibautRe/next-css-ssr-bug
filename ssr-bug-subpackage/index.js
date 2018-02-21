@@ -1,7 +1,7 @@
 // Not using JSX or ESModules here
 const React = require('react')
 
-const styles = require('./styles.css')
+require('./styles.css')
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -10,7 +10,7 @@ Object.defineProperty(exports, "__esModule", {
 
 const TestComponent = () => React.createElement(
   'div',
-  { className: styles.testClass },
+  { className: 'test-class-bug' },
   'This should be red',
 )
 
