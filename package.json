@@ -1,0 +1,14 @@
+{
+  "name": "next-css-ssr-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^0.1.2",
+    "next": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
