@@ -1,8 +1,6 @@
 import React from 'react'
 import TestComponent from 'ssr-bug-subpackage'
 
-console.log(TestComponent);
-
 export default () => (
   <React.Fragment>
     <TestComponent />
